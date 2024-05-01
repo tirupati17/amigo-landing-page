@@ -1,0 +1,163 @@
+[debug] [2024-05-01T07:27:36.995Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T07:27:36.996Z] Command:       /opt/homebrew/Cellar/node/21.6.1/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2024-05-01T07:27:36.996Z] CLI Version:   11.28.0
+[debug] [2024-05-01T07:27:36.997Z] Platform:      darwin
+[debug] [2024-05-01T07:27:36.997Z] Node Version:  v21.6.1
+[debug] [2024-05-01T07:27:36.997Z] Time:          Wed May 01 2024 12:57:36 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T07:27:36.997Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T07:27:37.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T07:27:37.030Z] > authorizing via signed-in user (tirupati.balan@gmail.com)
+[debug] [2024-05-01T07:27:37.030Z] [iam] checking project inout-money-cfd4f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-01T07:27:37.031Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions [none]
+[debug] [2024-05-01T07:27:37.031Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions x-goog-quota-user=projects/inout-money-cfd4f
+[debug] [2024-05-01T07:27:37.031Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:27:38.500Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions 200
+[debug] [2024-05-01T07:27:38.500Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:27:38.501Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f [none]
+[debug] [2024-05-01T07:27:38.912Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f 200
+[debug] [2024-05-01T07:27:38.912Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f {"projectId":"inout-money-cfd4f","projectNumber":"526297251704","displayName":"InOut Money","name":"projects/inout-money-cfd4f","resources":{"hostingSite":"inout-money-cfd4f"},"state":"ACTIVE","etag":"1_00dcd86d-fbcb-4636-82bb-1d9d453b5268"}
+[debug] [2024-05-01T07:27:48.820Z] TypeError: Cannot destructure property 'customConfig' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+    at loadConfig (/Users/tirupatibalan/Documents/celerstudio/Private/Amigo/app/LandingPage/tailwind-landing-page-template/node_modules/next/dist/server/config.js:641:41)
+    at getConfig (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:303:28)
+    at build (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:60:46)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async prepareFrameworks (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/index.js:279:108)
+    at async deploy (/opt/homebrew/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-05-01T07:32:50.158Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T07:32:50.159Z] Command:       /opt/homebrew/Cellar/node/21.6.1/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2024-05-01T07:32:50.159Z] CLI Version:   11.28.0
+[debug] [2024-05-01T07:32:50.159Z] Platform:      darwin
+[debug] [2024-05-01T07:32:50.159Z] Node Version:  v21.6.1
+[debug] [2024-05-01T07:32:50.160Z] Time:          Wed May 01 2024 13:02:50 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T07:32:50.160Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T07:32:50.197Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T07:32:50.197Z] > authorizing via signed-in user (tirupati.balan@gmail.com)
+[debug] [2024-05-01T07:32:50.197Z] [iam] checking project inout-money-cfd4f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-01T07:32:50.198Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions [none]
+[debug] [2024-05-01T07:32:50.198Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions x-goog-quota-user=projects/inout-money-cfd4f
+[debug] [2024-05-01T07:32:50.198Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:32:52.296Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions 200
+[debug] [2024-05-01T07:32:52.296Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:32:52.297Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f [none]
+[debug] [2024-05-01T07:32:52.763Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f 200
+[debug] [2024-05-01T07:32:52.763Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f {"projectId":"inout-money-cfd4f","projectNumber":"526297251704","displayName":"InOut Money","name":"projects/inout-money-cfd4f","resources":{"hostingSite":"inout-money-cfd4f"},"state":"ACTIVE","etag":"1_00dcd86d-fbcb-4636-82bb-1d9d453b5268"}
+[debug] [2024-05-01T07:33:10.336Z] TypeError: Cannot destructure property 'customConfig' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+    at loadConfig (/Users/tirupatibalan/Documents/celerstudio/Private/Amigo/app/LandingPage/tailwind-landing-page-template/node_modules/next/dist/server/config.js:621:41)
+    at getConfig (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:303:28)
+    at build (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:60:46)
+    at async prepareFrameworks (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/index.js:279:108)
+    at async deploy (/opt/homebrew/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-05-01T07:35:24.724Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T07:35:24.725Z] Command:       /opt/homebrew/Cellar/node/21.6.1/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2024-05-01T07:35:24.726Z] CLI Version:   11.28.0
+[debug] [2024-05-01T07:35:24.726Z] Platform:      darwin
+[debug] [2024-05-01T07:35:24.726Z] Node Version:  v21.6.1
+[debug] [2024-05-01T07:35:24.726Z] Time:          Wed May 01 2024 13:05:24 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T07:35:24.726Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T07:35:24.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T07:35:24.760Z] > authorizing via signed-in user (tirupati.balan@gmail.com)
+[debug] [2024-05-01T07:35:24.760Z] [iam] checking project inout-money-cfd4f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-01T07:35:24.761Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions [none]
+[debug] [2024-05-01T07:35:24.761Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions x-goog-quota-user=projects/inout-money-cfd4f
+[debug] [2024-05-01T07:35:24.761Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:35:26.244Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions 200
+[debug] [2024-05-01T07:35:26.244Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:35:26.245Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f [none]
+[debug] [2024-05-01T07:35:26.768Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f 200
+[debug] [2024-05-01T07:35:26.769Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f {"projectId":"inout-money-cfd4f","projectNumber":"526297251704","displayName":"InOut Money","name":"projects/inout-money-cfd4f","resources":{"hostingSite":"inout-money-cfd4f"},"state":"ACTIVE","etag":"1_00dcd86d-fbcb-4636-82bb-1d9d453b5268"}
+[debug] [2024-05-01T07:35:37.558Z] TypeError: Cannot destructure property 'customConfig' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+    at loadConfig (/Users/tirupatibalan/Documents/celerstudio/Private/Amigo/app/LandingPage/tailwind-landing-page-template/node_modules/next/dist/server/config.js:621:41)
+    at getConfig (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:303:28)
+    at build (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:60:46)
+    at async prepareFrameworks (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/index.js:279:108)
+    at async deploy (/opt/homebrew/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-05-01T07:35:48.820Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T07:35:48.821Z] Command:       /opt/homebrew/Cellar/node/21.6.1/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2024-05-01T07:35:48.821Z] CLI Version:   11.28.0
+[debug] [2024-05-01T07:35:48.822Z] Platform:      darwin
+[debug] [2024-05-01T07:35:48.822Z] Node Version:  v21.6.1
+[debug] [2024-05-01T07:35:48.822Z] Time:          Wed May 01 2024 13:05:48 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T07:35:48.822Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T07:35:48.856Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T07:35:48.857Z] > authorizing via signed-in user (tirupati.balan@gmail.com)
+[debug] [2024-05-01T07:35:48.857Z] [iam] checking project inout-money-cfd4f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-01T07:35:48.858Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions [none]
+[debug] [2024-05-01T07:35:48.858Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions x-goog-quota-user=projects/inout-money-cfd4f
+[debug] [2024-05-01T07:35:48.858Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:35:50.435Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions 200
+[debug] [2024-05-01T07:35:50.435Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:35:50.436Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f [none]
+[debug] [2024-05-01T07:35:50.849Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f 200
+[debug] [2024-05-01T07:35:50.849Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f {"projectId":"inout-money-cfd4f","projectNumber":"526297251704","displayName":"InOut Money","name":"projects/inout-money-cfd4f","resources":{"hostingSite":"inout-money-cfd4f"},"state":"ACTIVE","etag":"1_00dcd86d-fbcb-4636-82bb-1d9d453b5268"}
+[debug] [2024-05-01T07:36:00.848Z] TypeError: Cannot destructure property 'customConfig' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+    at loadConfig (/Users/tirupatibalan/Documents/celerstudio/Private/Amigo/app/LandingPage/tailwind-landing-page-template/node_modules/next/dist/server/config.js:621:41)
+    at getConfig (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:303:28)
+    at build (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:60:46)
+    at async prepareFrameworks (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/index.js:279:108)
+    at async deploy (/opt/homebrew/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-05-01T07:38:11.923Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T07:38:11.925Z] Command:       /opt/homebrew/Cellar/node/21.6.1/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2024-05-01T07:38:11.925Z] CLI Version:   11.28.0
+[debug] [2024-05-01T07:38:11.925Z] Platform:      darwin
+[debug] [2024-05-01T07:38:11.925Z] Node Version:  v21.6.1
+[debug] [2024-05-01T07:38:11.925Z] Time:          Wed May 01 2024 13:08:11 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T07:38:11.925Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T07:38:11.960Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T07:38:11.960Z] > authorizing via signed-in user (tirupati.balan@gmail.com)
+[debug] [2024-05-01T07:38:11.960Z] [iam] checking project inout-money-cfd4f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-01T07:38:11.961Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions [none]
+[debug] [2024-05-01T07:38:11.961Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions x-goog-quota-user=projects/inout-money-cfd4f
+[debug] [2024-05-01T07:38:11.961Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:38:13.422Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions 200
+[debug] [2024-05-01T07:38:13.422Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:38:13.423Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f [none]
+[debug] [2024-05-01T07:38:14.151Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f 200
+[debug] [2024-05-01T07:38:14.152Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f {"projectId":"inout-money-cfd4f","projectNumber":"526297251704","displayName":"Amigo AI","name":"projects/inout-money-cfd4f","resources":{"hostingSite":"inout-money-cfd4f"},"state":"ACTIVE","etag":"1_7086c797-c911-4e01-a0ce-228b9214dca3"}
+[debug] [2024-05-01T07:38:24.663Z] TypeError: Cannot destructure property 'customConfig' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+    at loadConfig (/Users/tirupatibalan/Documents/celerstudio/Private/Amigo/app/LandingPage/tailwind-landing-page-template/node_modules/next/dist/server/config.js:621:41)
+    at getConfig (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:303:28)
+    at build (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:60:46)
+    at async prepareFrameworks (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/index.js:279:108)
+    at async deploy (/opt/homebrew/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2024-05-01T07:39:53.412Z] ----------------------------------------------------------------------
+[debug] [2024-05-01T07:39:53.413Z] Command:       /opt/homebrew/Cellar/node/21.6.1/bin/node /opt/homebrew/bin/firebase deploy
+[debug] [2024-05-01T07:39:53.413Z] CLI Version:   11.28.0
+[debug] [2024-05-01T07:39:53.413Z] Platform:      darwin
+[debug] [2024-05-01T07:39:53.413Z] Node Version:  v21.6.1
+[debug] [2024-05-01T07:39:53.414Z] Time:          Wed May 01 2024 13:09:53 GMT+0530 (India Standard Time)
+[debug] [2024-05-01T07:39:53.414Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-01T07:39:53.449Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-01T07:39:53.449Z] > authorizing via signed-in user (tirupati.balan@gmail.com)
+[debug] [2024-05-01T07:39:53.449Z] [iam] checking project inout-money-cfd4f for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-05-01T07:39:53.450Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions [none]
+[debug] [2024-05-01T07:39:53.450Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions x-goog-quota-user=projects/inout-money-cfd4f
+[debug] [2024-05-01T07:39:53.450Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:39:55.213Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions 200
+[debug] [2024-05-01T07:39:55.214Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/inout-money-cfd4f:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-05-01T07:39:55.215Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f [none]
+[debug] [2024-05-01T07:39:55.674Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f 200
+[debug] [2024-05-01T07:39:55.674Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/inout-money-cfd4f {"projectId":"inout-money-cfd4f","projectNumber":"526297251704","displayName":"Amigo AI","name":"projects/inout-money-cfd4f","resources":{"hostingSite":"inout-money-cfd4f"},"state":"ACTIVE","etag":"1_7086c797-c911-4e01-a0ce-228b9214dca3"}
+[debug] [2024-05-01T07:40:07.137Z] TypeError: Cannot destructure property 'customConfig' of '(intermediate value)(intermediate value)(intermediate value)' as it is null.
+    at loadConfig (/Users/tirupatibalan/Documents/celerstudio/Private/Amigo/app/LandingPage/tailwind-landing-page-template/node_modules/next/dist/server/config.js:621:41)
+    at getConfig (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:303:28)
+    at build (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/next/index.js:60:46)
+    at async prepareFrameworks (/opt/homebrew/lib/node_modules/firebase-tools/lib/frameworks/index.js:279:108)
+    at async deploy (/opt/homebrew/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
